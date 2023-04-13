@@ -1,0 +1,52 @@
+.icon {
+  width: 50px;
+}
+
+.topnav h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: start;
+}
+.topnav ul li {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+header,
+footer,
+section.hero {
+  background-color: #fff0ed;
+}
+.price {
+  color: #5bacc3;
+  font-weight: bold;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #5bacc3;
+  border: 0px;
+}
+
+section.products h2 {
+  font-weight: 100;
+}
+
+.product-card img {
+  height: 280px;
+}
+
+p.promo {
+  background: #393939;
+  color: white;
+  width: 90%;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+p.promo .bold {
+  font-weight: 700;
+}

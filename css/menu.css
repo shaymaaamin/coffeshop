@@ -1,0 +1,82 @@
+.icon {
+  width: 50px;
+}
+
+.topnav h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: start;
+}
+.topnav ul li {
+  list-style: none;
+}
+
+.background {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/coffee-circle.jpg);
+}
+.hot-pas-background {
+  background-color: #fff0ed;
+}
+.cold-background {
+  background-color: #f7f7f7;
+}
+.subnav ul {
+  padding: 0px;
+}
+.subnav li {
+  width: 100%;
+  background-color: #393939;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  list-style: none;
+}
+.subnav li a {
+  color: White;
+  text-decoration: none;
+}
+
+.title-box {
+  width: 300px;
+  height: 200px;
+  color: white;
+  background-color: #393939;
+  text-align: center;
+  font-weight: 300;
+}
+BUTTON {
+  font-size: 21px;
+  font-weight: Regular 400;
+}
+h3 {
+  font-size: 33px;
+  font-weight: Light 300;
+  text-align: center;
+}
+
+NavHeading {
+  font-size: 33px;
+  font-weight: Light 300;
+}
+
+FooterHeading {
+  font-size: 33px;
+  font-weight: Light 300;
+}
+h1 {
+  font-size: 60px;
+  font-weight: Light 300;
+}
+h2 {
+  font-size: 60px;
+  font-weight: Light 300;
+  text-align: center;
+}
+.align {
+  text-align: center;
+  color: #5bacc3;
+}
