@@ -1,5 +1,6 @@
 h1 {
   font-weight: 100;
+  margin-top: 0px;
 }
 
 .price {
@@ -11,6 +12,8 @@ h1 {
   color: #ffffff;
   background-color: #5bacc3;
   border: 0px;
+  padding: 15px;
+  margin: 0px 100px;
 }
 
 section.products-wrapper h2 {
@@ -24,6 +27,10 @@ p.promo {
   font-size: 45px;
   font-weight: 400;
   text-align: center;
+  margin: auto;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 p.promo .bold {
   font-weight: 700;
@@ -38,6 +45,7 @@ p.promo .bold {
   box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
   margin: 20px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .product-card img {
@@ -51,4 +59,57 @@ p.promo .bold {
 
 .product-card .price {
   font-size: 1.5rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.hero-content {
+  margin-left: auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0px;
+  padding: 0px 100px;
+}
+.hero img {
+  margin-left: auto;
+  display: block;
+  margin-right: 200px;
+}
+.products-wrapper {
+  text-align: center;
+  background-color: lightgray;
+  padding-bottom: 40px;
+}
+.footer {
+  display: inline-flex;
+}
+.address {
+  display: inline;
+}
+.hours {
+  display: inline;
+}
+.social {
+  display: inline;
+}
+.bold-add {
+  font-weight: bolder;
+}
+
+.footer h3 {
+  padding: 0px 100px 0px 100px;
+}
+.footer p {
+  padding: 0px 100px 0px 100px;
+}
+.footer .icon {
+  padding: 0px 0px 0px 100px;
+}
+.hero p {
+  padding: 0px 100px;
+  margin-right: 244px;
 }

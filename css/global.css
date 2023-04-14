@@ -42,3 +42,8 @@ section.hero {
 .topnav ul li a:active {
   color: #5bacc3;
 }
+.hero img {
+  margin-left: auto;
+  display: block;
+  margin-right: 100px;
+}
