@@ -1,25 +1,9 @@
-.icon {
-  width: 50px;
-}
 
-.topnav h2 {
-  font-size: 1.5em;
-  font-weight: 100;
-  text-align: start;
-}
-.topnav ul li {
-  list-style: none;
-}
 
 h1 {
   font-weight: 100;
 }
 
-header,
-footer,
-section.hero {
-  background-color: #fff0ed;
-}
 .price {
   color: #5bacc3;
   font-weight: bold;
@@ -36,7 +20,7 @@ section.products h2 {
 }
 
 .product-card img {
-  height: 280px;
+  height: 17.5rem;
 }
 
 p.promo {
