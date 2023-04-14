@@ -3,3 +3,42 @@ body {
   font-weight: 400;
   margin: 0;
 }
+
+.icon {
+  width: 3.125rem;
+}
+
+footer,
+.topnav,
+section.hero {
+  background-color: #fff0ed;
+}
+
+.topnav {
+  padding: 20px;
+}
+.topnav * {
+  display: inline;
+  margin: 0px;
+}
+.topnav img.icon {
+  margin: -10px 0px;
+}
+.topnav h2 {
+  font-size: 2.5em;
+  font-weight: 100;
+  text-align: start;
+}
+.topnav ul li {
+  list-style: none;
+  margin: 20px;
+}
+.topnav ul li a {
+  text-decoration: none;
+  color: #393939;
+}
+.topnav ul li a:hover,
+.topnav ul li a:focus,
+.topnav ul li a:active {
+  color: #5bacc3;
+}
