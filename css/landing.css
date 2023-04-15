@@ -84,8 +84,10 @@ p.promo .bold {
   background-color: lightgray;
   padding-bottom: 40px;
 }
-.footer {
-  display: inline-flex;
+.products-wrapper h2 {
+  margin-top: 0px;
+  font-size: 3rem;
+  padding-top: 40px;
 }
 .address {
   display: inline;
@@ -99,17 +101,22 @@ p.promo .bold {
 .bold-add {
   font-weight: bolder;
 }
-
-.footer h3 {
-  padding: 0px 100px 0px 100px;
-}
-.footer p {
-  padding: 0px 100px 0px 100px;
-}
-.footer .icon {
-  padding: 0px 0px 0px 100px;
-}
 .hero p {
   padding: 0px 100px;
   margin-right: 244px;
+}
+
+footer {
+  text-align: center;
+}
+footer h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+footer > div {
+  vertical-align: middle;
+  text-align: left;
+  display: inline-block;
+  width: 20%;
+  margin: 20px;
 }
