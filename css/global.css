@@ -8,42 +8,38 @@ body {
   width: 3.125rem;
 }
 
-footer,
-.topnav,
-section.hero {
+footer {
   background-color: #fff0ed;
 }
 
 .topnav {
   padding: 20px;
+  background-color: #fff0ed;
 }
-.topnav * {
+.topnav__icon {
   display: inline;
-  margin: 0px;
-}
-.topnav img.icon {
   margin: -10px 0px;
 }
-.topnav h2 {
-  font-size: 2.5em;
+.topnav__title {
+  display: inline;
+  margin: 0px;
+  font-size: 2.063rem;
   font-weight: 100;
   text-align: start;
 }
-.topnav ul li {
+.topnav__list {
+  display: inline;
+}
+.topnav__item {
+  display: inline;
   list-style: none;
   margin: 20px;
+  text-transform: uppercase;
 }
-.topnav ul li a {
+.topnav__item_anchor {
   text-decoration: none;
   color: #393939;
 }
-.topnav ul li a:hover,
-.topnav ul li a:focus,
-.topnav ul li a:active {
+.topnav__item_anchor--active {
   color: #5bacc3;
-}
-.hero img {
-  margin-left: auto;
-  display: block;
-  margin-right: 100px;
 }

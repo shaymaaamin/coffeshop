@@ -15,47 +15,74 @@
   <body>
     <div class="topnav">
       <img
-        class="icon"
+        class="topnav__icon"
         src="assets/coffee-beans-logo-and-footer.svg"
         alt="coffe bean logo"
       />
-      <h2>nitro</h2>
-      <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#Menu">MENU</a></li>
-        <li><a href="#SHOPNOW">SHOP NOW</a></li>
+      <h2 class="topnav__title">nitro</h2>
+      <ul class="topnav__list">
+        <li class="topnav__item">
+          <a class="topnav__item_anchor" href="#about">About</a>
+        </li>
+        <li class="topnav__item">
+          <a class="topnav__item_anchor" href="#menu">Menu</a>
+        </li>
+        <li class="topnav__item">
+          <a class="topnav__item_anchor" href="#shopnow">Shop Now</a>
+        </li>
       </ul>
     </div>
 
     <section class="hero">
-      <div class="hero-content">
-        <h1>Nitro Coffee</h1>
-        <p>
+      <div class="hero__container">
+        <h1 class="hero__title">Nitro Coffee</h1>
+        <p class="hero__content">
           coffe is brewed drink prepared from roasted coffee Beans, the seeds of
           berries from certain coffee species
         </p>
-        <button class="button shop-now">SHOP NOW</button>
+        <button class="button button--primary">SHOP NOW</button>
       </div>
-      <img src="assets/images/coffeebeans-hero.png" alt="coffee bag" />
+      <img
+        class="hero__img"
+        src="assets/images/coffeebeans-hero.png"
+        alt="coffee bag"
+      />
     </section>
 
     <section class="products-wrapper">
       <h2>Our Products</h2>
       <div class="products">
-        <div class="product-card">
-          <img src="assets/coffeebeans.png" alt="Coffee Beans" />
-          <h3>Coffee Beans</h3>
-          <p class="price">$ 18.99</p>
+        <div class="product">
+          <img
+            class="product__img"
+            src="assets/coffeebeans.png"
+            alt="Coffee Beans"
+          />
+          <div class="product__content">
+            <h3 class="product__name">Coffee Beans</h3>
+            <div class="product__subtitle">Pack of 3</div>
+            <div class="product__price">$ 19</div>
+          </div>
         </div>
-        <div class="product-card">
-          <img src="assets/coldbrew.png" alt="Cold Brew" />
-          <h3>Cold Brew</h3>
-          <p class="price">$ 4.99</p>
+        <div class="product">
+          <img class="product__img" src="assets/coldbrew.png" alt="Cold Brew" />
+          <div class="product__content">
+            <h3 class="product__name">Cold Brew</h3>
+            <div class="product__subtitle">1 can</div>
+            <div class="product__price">$ 5</div>
+          </div>
         </div>
-        <div class="product-card">
-          <img src="assets/inhousebrew.png" alt="In-house Brew" />
-          <h3>In-house Brew</h3>
-          <p class="price">$ 2.99</p>
+        <div class="product">
+          <img
+            class="product__img"
+            src="assets/inhousebrew.png"
+            alt="In-house Brew"
+          />
+          <div class="product__content">
+            <h3 class="product__name">In-house Brew</h3>
+            <div class="product__subtitle">1 cup</div>
+            <div class="product__price">$ 3</div>
+          </div>
         </div>
       </div>
       <button class="button">VIEW ALL</button>
@@ -82,7 +109,7 @@
       <div class="Social">
         <h3>Social</h3>
         <p>
-          <img class="icon" src="assets/Facebook-Icon.svg" alt="Facebook" />
+          <img class="icon" src="assets/Facebook-Icon.svg" alt="Yelp" />
           <img class="icon" src="assets/Yelp-Icon.svg" alt="Yelp" />
           <img class="icon" src="assets/Instagram-Icon.svg" alt="Instagram" />
         </p>
