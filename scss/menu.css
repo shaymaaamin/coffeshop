@@ -1,0 +1,162 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+}
+
+.icon {
+  width: 3.125rem;
+}
+
+footer {
+  background-color: #fff0ed;
+  position: relative;
+  overflow: hidden;
+}
+footer .footer__icon {
+  position: absolute;
+  width: 100px;
+  opacity: 0.5;
+}
+footer .footer__icon.footer__icon--left {
+  left: -30px;
+  top: 50px;
+}
+footer .footer__icon.footer__icon--right {
+  right: -20px;
+  top: 130px;
+}
+
+.topnav {
+  padding: 20px;
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-between;
+}
+.topnav .topnav__icon {
+  display: inline;
+  margin: -10px 0px;
+}
+.topnav .topnav__title {
+  display: inline;
+  margin: 0px;
+  font-size: 2.063rem;
+  font-weight: 100;
+  text-align: start;
+}
+.topnav .topnav__list {
+  display: inline;
+}
+.topnav .topnav__list .topnav__item {
+  display: inline;
+  list-style: none;
+  margin: 20px;
+  text-transform: uppercase;
+}
+.topnav .topnav__list .topnav__item .topnav__item_anchor {
+  text-decoration: none;
+  color: #393939;
+}
+.topnav .topnav__list .topnav__item .topnav__item_anchor.topnav__item_anchor--active {
+  color: #5bacc3;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #5bacc3;
+  border: 0px;
+  padding: 15px;
+  font-size: 20px;
+  position: relative;
+}
+.button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.background {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/assets/images/coffee-circle.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-section {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+.products-section p {
+  font-style: italic;
+}
+
+.products-section-wrapper.cold-drinks {
+  background-color: #f7f7f7;
+}
+.products-section-wrapper.hot-drinks, .products-section-wrapper.pastries {
+  background-color: #fff0ed;
+}
+
+.subnav {
+  background: #393939;
+  height: 80px;
+  text-align: center;
+}
+.subnav ul {
+  padding: 25px 20px;
+  margin: 0px;
+}
+.subnav ul li {
+  font-size: 21px;
+  font-weight: 400;
+  list-style: none;
+  display: inline;
+  border-left: 4px solid #5bacc3;
+  padding: 0px 20px;
+}
+.subnav ul li a {
+  color: White;
+  text-decoration: none;
+}
+
+.title-box {
+  width: 300px;
+  height: 150px;
+  line-height: 150px;
+  color: white;
+  background-color: #393939;
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.price {
+  text-align: center;
+  color: #5bacc3;
+}/*# sourceMappingURL=menu.css.map */

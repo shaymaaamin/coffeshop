@@ -1,3 +1,7 @@
+@use "./partials/global" as *;
+$blue-color: #5bacc3;
+$background-color: #fff0ed;
+
 .background {
   width: 100%;
   height: 700px;
@@ -12,38 +16,45 @@
   width: 45%;
   margin: auto;
   text-align: center;
+
+  p {
+    font-style: italic;
+  }
 }
-.products-section p {
-  font-style: italic;
-}
-.products-section-wrapper.cold-drinks {
-  background-color: #f7f7f7;
-}
-.products-section-wrapper.hot-drinks,
-.products-section-wrapper.pastries {
-  background-color: #fff0ed;
+
+.products-section-wrapper {
+  &.cold-drinks {
+    background-color: #f7f7f7;
+  }
+  &.hot-drinks,
+  &.pastries {
+    background-color: $background-color;
+  }
 }
 
 .subnav {
   background: #393939;
   height: 80px;
   text-align: center;
-}
-.subnav ul {
-  padding: 25px 20px;
-  margin: 0px;
-}
-.subnav li {
-  font-size: 21px;
-  font-weight: 400;
-  list-style: none;
-  display: inline;
-  border-left: 4px solid #5bacc3;
-  padding: 0px 20px;
-}
-.subnav li a {
-  color: White;
-  text-decoration: none;
+
+  ul {
+    padding: 25px 20px;
+    margin: 0px;
+
+    li {
+      font-size: 21px;
+      font-weight: 400;
+      list-style: none;
+      display: inline;
+      border-left: 4px solid $blue-color;
+      padding: 0px 20px;
+
+      a {
+        color: White;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .title-box {
@@ -73,5 +84,5 @@ h2 {
 }
 .price {
   text-align: center;
-  color: #5bacc3;
+  color: $blue-color;
 }
