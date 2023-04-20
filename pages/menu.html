@@ -11,20 +11,32 @@
     <link rel="stylesheet" href="../css/menu.css" />
     <title>Coffee Shop - Menu</title>
   </head>
-  <body>
-    <div class="topnav">
+  <div class="topnav">
+    <div>
       <img
-        class="icon"
+        class="topnav__icon"
         src="../assets/coffee-beans-logo-and-footer.svg"
         alt="coffe bean logo"
       />
-      <h2>nitro</h2>
-      <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#Menu">MENU</a></li>
-        <li><a href="#SHOPNOW">SHOP NOW</a></li>
+      <h2 class="topnav__title">nitro</h2>
+    </div>
+    <div>
+      <ul class="topnav__list">
+        <li class="topnav__item">
+          <a class="topnav__item_anchor" href="#about">About</a>
+        </li>
+        <li class="topnav__item">
+          <a class="topnav__item_anchor" href="#menu">Menu</a>
+        </li>
+        <li class="topnav__item">
+          <a class="topnav__item_anchor topnav__active" href="#shopnow"
+            >Shop Now</a
+          >
+        </li>
       </ul>
     </div>
+  </div>
+
     <div class="background">
       <h1 class="title-box">MENU</h1>
     </div>

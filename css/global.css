@@ -15,6 +15,8 @@ footer {
 .topnav {
   padding: 20px;
   background-color: #fff0ed;
+  display: flex;
+  justify-content: space-between;
 }
 .topnav__icon {
   display: inline;
@@ -42,4 +44,11 @@ footer {
 }
 .topnav__item_anchor--active {
   color: #5bacc3;
+}
+.topnav__active {
+  color: #5bacc3;
+}
+ul .topnav__list {
+  display: flex;
+  justify-content: end;
 }

@@ -141,3 +141,45 @@ footer > div {
   width: 20%;
   margin: 20px;
 }
+.hero2 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-top: 5rem;
+}
+
+.hero2__container {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.hero2__title {
+  font-size: 3rem;
+  margin: 0px;
+  padding: 0px 100px;
+}
+
+.hero2__img {
+  margin-left: auto;
+  display: block;
+  margin-right: 200px;
+}
+.hero2__background__image {
+  background-image: url("assets/coldbrewbackground.png");
+}
+
+.hero2__content {
+  padding: 0px 390px 0px 100px;
+}
+.hero2__icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 390px 20px 100px;
+}
+.hero2__icon__size {
+  width: 4rem;
+}
