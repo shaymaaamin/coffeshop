@@ -7,49 +7,49 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
     <title>Coffee Shop - Menu</title>
   </head>
-  <div class="topnav">
-    <div>
-      <img
-        class="topnav__icon"
-        src="../assets/coffee-beans-logo-and-footer.svg"
-        alt="coffe bean logo"
-      />
-      <h2 class="topnav__title">nitro</h2>
-    </div>
-    <div>
-      <ul class="topnav__list">
-        <li class="topnav__item">
-          <a class="topnav__item_anchor" href="#about">About</a>
-        </li>
-        <li class="topnav__item">
-          <a class="topnav__item_anchor" href="#menu">Menu</a>
-        </li>
-        <li class="topnav__item">
-          <a class="topnav__item_anchor topnav__active" href="#shopnow"
-            >Shop Now</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
-
-    <div class="background">
+  <body>
+    <header class="topnav">
+      <div>
+        <img
+          class="topnav__icon"
+          src="/assets/logos/coffee-beans-logo-and-footer.svg"
+          alt="coffe bean logo"
+        />
+        <h2 class="topnav__title">nitro</h2>
+      </div>
+      <div>
+        <ul class="topnav__list">
+          <li class="topnav__item">
+            <a class="topnav__item_anchor" href="#about">About</a>
+          </li>
+          <li class="topnav__item">
+            <a class="topnav__item_anchor topnav__active" href="pages/menu.html"
+              >Menu</a
+            >
+          </li>
+          <li class="topnav__item">
+            <a class="topnav__item_anchor" href="/index.html">Shop Now</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="background">
       <h1 class="title-box">MENU</h1>
-    </div>
-    <div class="subnav">
+    </section>
+    <section class="subnav">
       <ul>
         <li><a class="active" href="#HotDrinks">Hot Drinks</a></li>
-        <li><a href="#Colddrinks">Cold Drinks</a></li>
+        <li><a href="#ColdDrinks">Cold Drinks</a></li>
         <li><a href="#Pastries">Pastries</a></li>
       </ul>
-    </div>
-    <div class="products-section-wrapper hot-drinks">
+    </section>
+    <section class="products-section-wrapper hot-drinks">
       <div class="products-section">
-        <h2>Hot Drinks</h2>
+        <h2 id="HotDrinks">Hot Drinks</h2>
         <h3>In-house Brew</h3>
         <p>
           Our in-house medium roast is a classic balance between sweet vanilla,
@@ -65,10 +65,10 @@
         </p>
         <div class="price">$4.99</div>
       </div>
-    </div>
-    <div class="products-section-wrapper cold-drinks">
+    </section>
+    <section class="products-section-wrapper cold-drinks">
       <div class="products-section">
-        <h2>cold Drinks</h2>
+        <h2 id="ColdDrinks">Cold Drinks</h2>
         <h3>Cold Brew</h3>
         <p>
           Our bright and delicious coffee blend, brewed over ice to give you a
@@ -83,10 +83,10 @@
         </p>
         <div class="price">$6.99</div>
       </div>
-    </div>
-    <div class="products-section-wrapper pastries">
+    </section>
+    <section class="products-section-wrapper pastries">
       <div class="products-section">
-        <h2>Pastries</h2>
+        <h2 id="Pastries">Pastries</h2>
         <h3>Oatmeal Raisin Cookie</h3>
         <p>
           An infused bacon, sugar and egg mixture is folded into a perfect blend
@@ -101,6 +101,6 @@
         </p>
         <div class="price">$2.50</div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

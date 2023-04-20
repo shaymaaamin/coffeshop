@@ -3,14 +3,15 @@
   height: 700px;
   background-position: center;
   background-size: cover;
-  background-image: url(../assets/coffee-circle.jpg);
-  justify-content: center;
+  background-image: url(/assets/images/coffee-circle.jpg);
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .products-section {
-  width: 40%;
+  width: 45%;
   margin: auto;
+  text-align: center;
 }
 .products-section p {
   font-style: italic;
@@ -47,16 +48,12 @@
 
 .title-box {
   width: 300px;
-  height: 200px;
+  height: 150px;
+  line-height: 150px;
   color: white;
   background-color: #393939;
   text-align: center;
   font-weight: 300;
-  margin: 12rem 2rem 2rem 2rem;
-}
-BUTTON {
-  font-size: 21px;
-  font-weight: Regular 400;
 }
 h3 {
   font-size: 33px;
