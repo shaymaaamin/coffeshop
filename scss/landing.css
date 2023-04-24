@@ -68,15 +68,22 @@ footer .footer__icon.footer__icon--right {
   padding: 15px;
   font-size: 20px;
   position: relative;
+  cursor: pointer;
 }
 .button::before {
   content: "";
-  width: 100%;
-  height: 100%;
   border: 2px solid black;
   position: absolute;
   top: -5px;
   left: -5px;
+  right: 5px;
+  bottom: 5px;
+}
+.button:active::before {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .hero {
@@ -112,22 +119,40 @@ footer .footer__icon.footer__icon--right {
   text-align: center;
   width: 300px;
   height: 300px;
-  position: relative;
 }
 
-.hero__img-container::before {
+.hero__img-container--bordered {
+  position: relative;
+}
+.hero__img-container--bordered::before {
   content: "";
-  width: 100%;
-  height: 100%;
   border: 5px solid #5bacc3;
   position: absolute;
   top: -20px;
   left: -20px;
+  right: 20px;
+  bottom: 20px;
 }
 
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .hero__img--small {
   margin: 20px auto;
   height: 75%;
+  position: absolute;
+  left: 75px;
+}
+.hero__img--small:hover {
+  animation-name: rotating;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .hero__content {
@@ -154,6 +179,17 @@ section.products-wrapper h2 {
   font-weight: 100;
 }
 
+@keyframes flashing {
+  0% {
+    background: #393939;
+  }
+  50% {
+    background: #5bacc3;
+  }
+  100% {
+    background: #393939;
+  }
+}
 p.promo {
   background: #393939;
   color: white;
@@ -165,8 +201,8 @@ p.promo {
   padding: 20px;
   margin-top: 100px;
   margin-bottom: 100px;
+  animation: flashing 2.5s linear infinite;
 }
-
 p.promo .bold {
   font-weight: 700;
 }
